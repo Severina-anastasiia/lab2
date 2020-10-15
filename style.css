@@ -1,0 +1,35 @@
+body{
+	background: yellow;
+	line-height: 1.8;
+}
+input[type=text]{
+	border:none;
+	border-bottom: solid #8B008B;
+}
+input[type=email]{
+	border:none;
+	border-bottom: solid #8B008B;
+}
+input:invalid{
+	background-color: red;
+}
+
+input:valid{
+	background-color: #DDA0DD;
+}
+div {
+	width: 500px;
+	border: 20px solid #8B008B;
+	padding: 25px;
+	text-align: center;
+	margin: 25px;
+}
+textarea {
+    width: 75%;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 16px;	
+    resize: none;
+}
