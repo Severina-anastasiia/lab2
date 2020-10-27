@@ -1,7 +1,16 @@
-body{
+.bstyle{
 	background: yellow;
 	line-height: 1.8;
 }
+p{
+	color:#8B008B;
+	position: relative;
+}
+#name{
+	font-size: 25px;
+	top: 15px;
+	left: 120px;}
+
 input[type=text]{
 	border:none;
 	border-bottom: solid #8B008B;
@@ -23,6 +32,9 @@ div {
 	padding: 25px;
 	text-align: center;
 	margin: 25px;
+	position: absolute;
+	top: 70px;
+	left: 130px;
 }
 textarea {
     width: 75%;
@@ -32,4 +44,7 @@ textarea {
     border-radius: 4px;
     font-size: 16px;	
     resize: none;
+}
+img{
+	float: left;
 }
